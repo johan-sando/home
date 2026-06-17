@@ -80,3 +80,9 @@ a {
     line-height: 1 !important;
     text-align:center;
 }
+
+.connection_icon{
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+}
