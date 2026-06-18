@@ -10,6 +10,7 @@ body{
     margin: 0;
     padding:0;
     width: 100%;
+    color: rgb(54,69,79);
 }
 
 ul.banner{
@@ -54,7 +55,7 @@ ul.banner{
 .main{
 
     position: relative;
-    top: 60px;
+    padding-top:60px;
 
     min-height: 100vh;
 
@@ -64,7 +65,7 @@ ul.banner{
 }
 
 
-h2{
+h2, h3 {
 
     color: rgb(54,69,79);
     justify-content: center;
@@ -85,4 +86,10 @@ a {
     height: 1em;
     width: auto;
     vertical-align: middle;
+}
+
+.res_exp h3 {
+  display: flex;        /* Turns the container into a flexbox */
+  align-items: center;  /* Vertically aligns the text centers */
+  gap: 50px; 
 }
