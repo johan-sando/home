@@ -128,3 +128,26 @@ section{
     margin-left: 65vh;
     text-align: left;
 }
+
+.cv_header{
+    display: flex;
+    margin-left: 65vh;
+    margin-right: 120px;
+    flex-direction: row;    
+    justify-content: space-between !important; 
+    align-items: center;
+    width: 80vh;
+    text-align:center;
+    padding-bottom: 0;
+}
+
+.cv_exp{
+    display:flex;
+    flex-direction:column;
+    width: 100vh;
+    margin-bottom: 10px;
+}
+
+.hr{
+    color:rgb(83, 83, 83)
+}
