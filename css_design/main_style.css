@@ -151,3 +151,17 @@ section{
 .hr{
     color:rgb(83, 83, 83)
 }
+
+.proj_button{
+    text-align:center;
+
+    text-decoration: none;
+    color: rgb(54,69,79);
+
+    &:hover{
+        text-decoration: underline;
+        color: rgb(80, 83, 231);
+        opacity: 0.8;
+    }    
+
+}
