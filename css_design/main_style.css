@@ -32,7 +32,7 @@ ul.banner{
     list-style-type: none;
     background:white;
 
-    gap: 60px;
+    gap: 5vw;
     border-bottom: 1px solid rgb(209,209,209); 
     overflow: hidden;   
 }
@@ -55,7 +55,7 @@ ul.banner{
 .main{
 
     position: relative;
-    padding-top:60px;
+    padding-top:0vh;
 
     min-height: 100vh;
 
